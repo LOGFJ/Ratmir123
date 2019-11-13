@@ -1,0 +1,112 @@
+main {
+    background-color: rgb(236, 224, 189);
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(236, 224, 189);
+    margin: 0;
+    padding: 0;  
+}
+
+.logo {
+    widows: 130px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+h1 {
+    color: rgb(202, 155, 66);
+    font-size: 40px;
+    padding: 0;
+    padding-bottom: 50px;
+    margin: 0;
+}
+
+header {
+    background-color: beige;
+    margin-left: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid hsl(9, 41%, 40%);
+}
+
+ul {
+    font-size: 20px;
+    color: green;
+}
+
+img {
+    height: 150px;
+    widows: 270px;
+    display: flexbox;
+    padding-top: 5px;
+} 
+
+.one {
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.two {
+    font-size: 20px;
+    color: green;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.f{
+    color:rgb(63, 138, 74);
+    position: relative;
+    display: flex;
+    position: relative;
+display: block;
+margin: 0 auto 13px;
+overflow: hidden;
+position: absolute;
+bottom: 0;
+margin-left:640px;
+justify-content:space-between;
+color: #FFF;
+text-align: right;
+}
+.three{
+    color:rgb(197, 136, 44); 
+    font-size:20px;
+    display:block;
+}
+.f a:hover{
+    color: rgb(131, 219, 58);
+}
+.f a{
+    color:rgb(63, 138, 74);
+    text-decoration: none; 
+}
+.two a{
+    color:rgb(63, 138, 74);
+    text-decoration: none;
+}
+.two a:hover{
+    color: rgb(131, 219, 58);
+}
+.one a{
+    color:rgb(63, 138, 74);
+    text-decoration: none;
+}
+.one a:hover{
+    color: rgb(131, 219, 58);
+}
+.picture{
+    display: flex;
+}
+.austr{
+ 
+}
