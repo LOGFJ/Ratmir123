@@ -107,6 +107,7 @@ text-align: right;
 .four a{
     color:rgb(63, 138, 74);
     text-decoration: none;
+<<<<<<< HEAD
 }
 .five{
     
@@ -114,6 +115,15 @@ text-align: right;
     height:300px;
     padding-left:37%;
 }
+=======
+}
+.five{
+    
+    width: 350px;
+    height:300px;
+    padding-left:37%;
+}
+>>>>>>> 339a024af58e99d5aea8d6596835f1e31f66ae5b
 .six{
     width: 300px;
     height:300px;
