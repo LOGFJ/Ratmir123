@@ -29,12 +29,11 @@ h1 {
 }
 
 header {
-    
     margin-left: 1px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px solid hsl(9, 41%, 40%);
+    border-bottom: 2px solid hsl(36, 92%, 38%);
 }
 
 ul {
@@ -46,7 +45,7 @@ img {
     height: 150px;
     widows: 270px;
     display: flexbox;
-    padding-top: 5px;
+    margin-top:5px;
 } 
 
 .one {
@@ -79,7 +78,7 @@ justify-content:space-between;
 text-align: right;
 }
 .three{
-    color:rgb(197, 136, 44); 
+    color:rgb(108, 168, 29); 
     font-size:20px;
     display:block;
 }
@@ -109,41 +108,44 @@ text-align: right;
     text-decoration: none;
 }
 .five{
-    
-    width: 350px;
+    width: 300px;
     height:300px;
-    padding-left:37%;
-}
+    margin-left:37%;
+    border-style:inset;
+    border-color: rgb(182, 164, 0);
+    
+   }    
 .six{
     width: 300px;
     height:300px;
-    padding-left:39%;
+    margin-left:39%;
+    border-style: inset;
+    border-color: rgb(204, 186, 23);    
 }
 .row{
     width: 500px;
     height:300px;
-    padding-left:32%;
+    margin-left:32%;
+    border-style: inset;
+    border-color: rgb(204, 186, 23);    
 }
 .eight{
-    color:rgb(197, 136, 44); 
+    color:rgb(108, 168, 29);
     font-size:20px;
     display:block;
     text-align:center;
 }
+
 body{
     color:rgb(65, 117, 112);
     background-image:url(https://avatars.mds.yandex.net/get-pdb/1641653/ddec43a3-11ad-41eb-a129-bdaf3604c1b4/s1200);
     background-position:center ;
     background-repeat: no-repeat;
     background-size: cover;
-  
+    background-attachment: fixed;
 
 }
 footer{
     color:rgb(65, 117, 112);
-    background-image:url(https://i.sunhome.ru/journal/193/predok-cheloveka-v2.orig.jpg);
-    background-position:center ;
-    background-repeat: no-repeat;
-    background-size: cover;
-
 }
+
