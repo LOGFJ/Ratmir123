@@ -1,0 +1,191 @@
+html,
+body{
+    font-family: Tahoma;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body{
+    align-items: center;
+    background: url('https://7770003.ru/netcat_files/957_90602.jpg');
+    display: flex;
+    justify-content: center;
+}
+
+.__responsive{
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    vertical-align: bottom;
+    width: auto;
+}
+
+#login-form{
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+}
+#login-form button{
+    background: rgba(204, 204, 204, 0.972);
+    border: none;
+    border-radius: 10px;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+}
+#login-form .image{
+    border-radius: 45%;
+    cursor: pointer;
+    margin-bottom: 25px;
+    overflow: hidden;
+    height: 160px;
+    width: 130px;
+}
+
+#login-form input[type="text"]{
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px 20px;
+    text-align: center;
+}
+#login-form input[type="text"]:focus{
+    border-color: #004c79;
+}
+#login-form input[type="file"]{
+    display: none;
+}
+#login-form img{
+    max-height: 100%;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    
+    width: 600px;
+}
+@media(max-width: 640px){
+    main{
+        width: 100%;
+    }
+}
+
+#chat-form header{
+    align-items: center;
+    background: #03a9f4;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: #FFF;
+    display: flex;
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+#chat-form header button{
+    background: none;
+    border: none;
+    border-left: 1px solid #004c79;
+    color: #DDD;
+    cursor: pointer;
+    margin-left: auto;
+    padding-left: 20px;
+}
+#chat-form header button:hover{
+    color: #FFF;
+}
+#chat-form  #content{
+    background: #FFF;
+    height: 400px;
+    overflow: auto;
+
+    padding: 20px;
+}
+@media(max-height: 450px){
+    main{
+        height: 100%;
+    }
+}
+
+#chat-form footer{
+    background: #FFF;
+    border-top: 1px solid #CCC;
+    padding: 20px;
+}
+#chat-form form{
+    align-items: stretch;
+    display: flex;
+}
+#chat-form form input{
+    border: 1px solid #DDD;
+    border-right: none;
+    flex-grow: 1;
+    padding: 10px;
+}
+#chat-form form button{
+    background: #333;
+    border: 1px solid transparent;
+    color: #FFF;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+#chat-form .message{
+    align-items: flex-start;
+    display: flex;
+    margin-bottom: 20px;
+}
+#chat-form .message .image{
+    border-radius: 50%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    overflow: hidden;
+    order: 1;
+    margin-left: 20px;
+    height: 80px;
+    width: 80px;
+}
+#chat-form .message.me .image{
+    background: #DDD;
+    order: 0;
+    margin-left: 0;
+    margin-right: 20px;
+}
+#chat-form .message .image img{
+    height: auto;
+    max-height: 100%;
+    
+    vertical-align: bottom;
+    width: auto;
+}
+#chat-form .message .text{
+    flex-grow: 1;
+    border-bottom: 2px solid #befccc;
+    background-color: #ffe07b ;
+    border-radius: 5px;
+    padding: 10px;
+}
+#chat-form .message .head{
+    display: flex;
+    justify-content: space-between;
+}
+#chat-form .message .head .name{
+    font-weight: bold;
+    margin-right: 10px;
+}
+#chat-form .message .head .time{
+    font-size: 12px;
+}
+#chat-form .message.me .text{
+    background: #58d0ff;
+    color: #FFF;
+    border-bottom-color: #CCC;
+}
+#chat-form .message .body{
+    margin-top: 10px;
+}

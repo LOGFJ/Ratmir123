@@ -1,0 +1,41 @@
+html,
+body{
+    height:100%;
+    margin:0;
+    padding: 0;
+}
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+form{
+    background: #AAAFFF;
+    padding: 20px;
+}
+button{
+    border: 1px solid #7345
+    ;
+    background: #2312EC;
+    color:white;
+    margin-top: 10px;
+    width:100%
+}
+.cells.cell{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: calc(50%-20px);
+    }
+.cells{
+    display: flex;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+input{
+    box-sizing: border-box;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: 1px solid #777;
+    outline:none;
+    width:100%
+}

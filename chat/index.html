@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Чат</title>
+</head>
+<body>
+    <form id="login-form">
+        <label for="avatar" class="image __responsive">
+            <img src="./assets/user.svg" id="avatar-image">
+        </label>
+        <div class="name">
+            <input type="text" required id="login">
+        </div>
+        <button id="enter" type="button">Войти</button>
+        <input type="file" name="avatar" id="avatar">
+    </form>
+
+    <main style="display: none;" id="chat-form">
+        <header>
+            <span>Название чата</span>
+            <button id="exit" type="button">Выход</button>
+        </header>
+        <section id="content">
+        </section>
+        <footer>
+            <form action="#">
+                <input type="text" required placeholder="Введите текст сообщения" id="message">
+                <button id="button">Отправить</button>
+            </form>
+        </footer>
+    </main>
+    <audio id="audio-send" src="./assets/send.mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
